@@ -26,7 +26,7 @@
 
     let letra = "Rômulo";
 
-    if(letra === "Rômulo"){
+    if(letra[0] === "R"){
         console.log("Nome começando com letra R")
     }else{
         console.log("Nome diferente, não contem a letra R no inicio")
@@ -34,7 +34,7 @@
 
     let sobreNome = "Vainaweb";
 
-    if(("Nome comçando com letra E") || (sobreNome)){
+    if((sobreNome.length >= 6) || (letra[0] === "E")){
         console.log("Sobre nome contem mais de seis letras")
     }else{
         console.log("Inválido")
